@@ -41,14 +41,14 @@
         margin-top: 15px;
         font-size: larger;
         font-weight: bolder;
-        color: rgb(red, green, blue);
+        color: red;
         letter-spacing: 5px;
     }
 }
-@media(min-width:770px){
+@media(max-width:770px){
     .main{
         height: 300px;
-        background-color: rgb(red, green, blue);
+        background-color: pink;
         width: 100%;
     }
     .sec2 section{
@@ -60,7 +60,7 @@
         margin-top: 15px;
         font-size: larger;
         font-weight: bolder;
-        color: rgb(red, green, blue);
+        color: purple;
         letter-spacing: 5px;
     }
 }
